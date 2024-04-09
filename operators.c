@@ -2,12 +2,15 @@
 #include<stdbool.h>
  int main(){
 
-    bool value1=true;
-  
-    bool value2=false;
+    int Age=18;
+    double Height=6.3;
 
-    printf("%d",value1);
-    printf("\n%d",value2);
+
+    bool result=(Age>=18)&&(Height>6.0);
+  
+    
+    printf("%d\n",result);
+    
 
  return 0;
  }
