@@ -2,11 +2,10 @@
 #include<stdbool.h>
  int main(){
 
-    int Age=18;
-    double Height=6.3;
+    int Age=25;
 
-
-    bool result=(Age>=18)&&(Height>6.0);
+    
+bool result=!(Age>=18);
   
     
     printf("%d\n",result);
